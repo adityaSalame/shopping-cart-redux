@@ -27,7 +27,7 @@ const App = () => {
         <Routes>
         <Route path="/" exact component={HomePage} />
         <Route path="/cart" component={CartPage} />
-        <CheckoutSidebar />
+        <Route path="/checkout" element={<CheckoutSidebar />} />
         </Routes>
       </Router>
     </Provider>

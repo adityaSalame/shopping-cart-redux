@@ -8,4 +8,8 @@ export const addToCart = (product) => ({
     type: 'REMOVE_FROM_CART',
     payload: productId,
   });
+
+  export const resetCart=()=>({
+    type:'RESET_CART',
+  });
   
